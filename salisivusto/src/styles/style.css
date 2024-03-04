@@ -1,0 +1,138 @@
+.fancy-link,
+.fancy-button {
+    padding: 7px 20px;
+    background-color: #FFC656;
+    color: #808080;
+    text-decoration:none;
+    font-weight: bold;
+    border-radius: 5px; 
+    width: 150px;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+  }
+
+  .fancy-link:hover,
+  .fancy-button:hover {
+    background-color: #FFA500; 
+    color: #808080; 
+  }
+
+  .fancy-search {
+    font-weight: bold;
+    background-color: #808080;
+    border-width: 2px;
+    border-color:#FFA500;
+    border-radius: 5px;
+    width:150px;
+  }
+  .form-control:focus,
+  .fancy-search:active {
+    border-color: #FFC656;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+  }
+  .bg-custom {
+    background-color:rgb(54, 54, 54);
+    border-color: #464646;
+    margin-bottom: 5px;
+    border-style: solid;
+  }
+
+  .fancy-button {
+    border-radius: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+  }
+.navbartoggler {
+  background-color: #FFC656;
+}
+
+@media (max-width: 770px) {
+  #exercises {
+        width: 450px;
+        height: 315px;
+      }
+  
+}
+
+@media (max-width: 450px) {
+  #exercises {
+        width: 315px;
+        height: 200px;
+}
+  
+}
+@media (max-width: 350px) {
+      #exercises {
+            width: 215px;
+            height: 150px;
+          }
+      }
+    
+@media (max-width: 240px) {
+          #exercises {
+                width: 100px;
+                height: 70px;
+}
+          
+}
+            
+@media (max-width: 580px) {
+              #nutrition {
+                  width: 90%;
+                  }
+              
+                }         
+        
+            
+                @media (max-width: 780px) {
+                  #nutrition1 {
+                      width: 90%;
+                      }
+                  
+                    }    
+
+            
+                    @media (max-width: 770px) {
+                      #nutrition2 {
+                          width: 90%;
+                          }
+                      
+                        }    
+.sivuntaustakuva {
+  background-image: url(../images/koko1.png);
+}
+
+
+.dropdownmenu {
+  background-color: #464646;
+  border-color: #464646;
+  border-style:solid;
+  border-radius: 5px;
+  border-color:#FFC656;
+  color: #FFC656;
+  
+}
+
+.container {
+  color: #FFC656;
+  background-color:rgb(54, 54, 54);
+  border-color: #464646;
+  border-style:solid;
+  border-radius: 5px;
+}
+
+.nav-link1 {
+  color: #FFC656;
+  text-decoration:underline;
+}
+.nav-link1:hover{
+  color: #FFA500;
+}
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.bold-text {
+  font-weight: bold;
+}
